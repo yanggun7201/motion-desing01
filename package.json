@@ -1,25 +1,45 @@
 {
-  "name": "motion-design01",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "name": "motion-design01",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.18.0",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.0.4",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "bootstrap": "^4.1.3",
+        "classnames": "^2.2.6",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.3.1",
+        "lodash": "^4.17.11",
+        "popper.js": "^1.14.5",
+        "prop-types": "^15.6.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3",
+        "react-redux": "^5.1.1",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "2.1.1",
+        "redux": "^4.0.1",
+        "redux-devtools-extension": "^2.13.6",
+        "redux-promise-middleware": "^5.1.1",
+        "redux-thunk": "^2.3.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "proxy": "http://localhost:8181/"
 }
